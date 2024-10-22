@@ -57,7 +57,7 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Software Engineer</h3>
-            <p className="home__description">I am a Software Engineer specializing in Go, Python, and serverless architectures, with a focus on developing scalable fintech solutions. With experience in automation and blockchain development, I am passionate about leveraging cutting-edge technologies to create innovative solutions that drive business growth.</p>
+            <p className="home__description">FinTech API Architect and Back-end Engineer focused on scalable automation and building future financial solutions.</p>
             <a href="#contact" className="button button--flex">
                     Say Hello
                     <svg
