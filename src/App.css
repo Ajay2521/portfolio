@@ -1,5 +1,5 @@
-/* GOOGLE FONTS */ 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /* CSS VARIABLES */
 :root {
@@ -38,7 +38,7 @@
   /* --font-bold: 700; */
 
   /* BOTTOM MARGINS */
-  --mb-0-25: .25rem;
+  --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
   --mb-1: 1rem;
@@ -56,14 +56,14 @@
 /* RESPONSIVE TYPOGRAPHY */
 @media screen and (max-width: 992px) {
   :root {
-      --big-font-size: 2.75rem;
-      --h1-font-size: 1.5rem;
-      --h2-font-size: 1.25rem;
-      --h3-font-size: 1rem;
-      --normal-font-size: 0.938rem;
-      --small-font-size: 0.813rem;
-      --smaller-font-size: 0.75rem;
-      --smallest-font-size: 0.625rem;
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    --smallest-font-size: 0.625rem;
   }
 }
 
@@ -78,7 +78,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body, button, input, textarea {
+body,
+button,
+input,
+textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
@@ -88,7 +91,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semibold);
 }
@@ -128,7 +133,8 @@ img {
   margin-bottom: 4rem;
 }
 
-.section__title, .section__subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
@@ -162,7 +168,6 @@ img {
   margin-left: var(--mb-0-5);
 }
 
-
 .button--flex {
   display: inline-flex;
   align-items: center;
@@ -171,30 +176,30 @@ img {
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
   .container {
-      margin-left: var(--mb-1-5);
-      margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
   }
 
   .button {
-      padding: 1rem 1.75rem;
+    padding: 1rem 1.75rem;
   }
 
   .button__icon {
-      width: 22px;
-      height: 22px;
+    width: 22px;
+    height: 22px;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-      margin: 00 var(--header-height) 0;
+    margin: 00 var(--header-height) 0;
   }
   .section {
-      padding: 2rem 0 4rem;
+    padding: 2rem 0 4rem;
   }
 
   .section__subtitle {
-      margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-3);
   }
 }
 
@@ -203,12 +208,11 @@ img {
 
 @media screen and (max-width: 350px) {
   :root {
-  --big-font-size: 2.25rem;
+    --big-font-size: 2.25rem;
   }
 
   .container {
-      margin-left: var(--mb-1);
-      margin-right: var(--mb-1);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
-
 }
