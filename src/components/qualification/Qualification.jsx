@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./qualification.css";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { LuCalendarCheck2 } from "react-icons/lu";
 
 const Qualification = () => {
-    const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(1);
 
-    const toggleTab = (index) => {
-        setToggleState(index);
-    };
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
 
   return (
     <section className="qualification section">
@@ -18,18 +18,38 @@ const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className={toggleState === 1 ? "qualification__button  qualification__active  button--flex" : "qualification__button button--flex"} onClick={ () => toggleTab(1) }>
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__button  qualification__active  button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(1)}
+          >
             <MdOutlineWorkHistory className="qualification__icon" />
             Experience
           </div>
-          <div className={toggleState === 2 ? "qualification__button  qualification__active  button--flex" : "qualification__button button--flex"} onClick={ () => toggleTab(2) }>
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__button  qualification__active  button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(2)}
+          >
             <HiOutlineAcademicCap className="qualification__icon" />
             Education
           </div>
         </div>
 
         <div className="qualification__sections">
-          <div className={toggleState === 1 ? "qualification__content  qualification__content-active" : "qualification__content"} >
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__content  qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Software Engineer</h3>
@@ -56,7 +76,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Software Engineer Intern</h3>
+                <h3 className="qualification__title">
+                  Software Engineer Intern
+                </h3>
                 <span className="qualification__subtitle">
                   Funding Societies | Modalku
                 </span>
@@ -83,7 +105,13 @@ const Qualification = () => {
               </div>
             </div>
           </div>
-          <div className={toggleState === 2 ? "qualification__content  qualification__content-active" : "qualification__content"} >
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__content  qualification__content-active"
+                : "qualification__content"
+            }
+          >
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
@@ -112,7 +140,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Higher Secondary Education</h3>
+                <h3 className="qualification__title">
+                  Higher Secondary Education
+                </h3>
                 <span className="qualification__subtitle">
                   St. Joseph's Matriculation Higher Secondary School
                 </span>
