@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://x-access-token:${GH_PAT}@github.com/Ajay2521/portfolio.git",
+    "deploy": "main -d build -r https://x-access-token:${GH_PAT}@github.com/Ajay2521/portfolio.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
