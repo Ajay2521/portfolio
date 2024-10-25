@@ -1,8 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { TbBrandInstagram } from "react-icons/tb";
-import { VscGithub } from "react-icons/vsc";
+import { GrInstagram, GrGithub, GrLinkedin } from "react-icons/gr";
 
 const Footer = () => {
   return (
@@ -33,7 +31,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiOutlineLinkedin />
+            <GrLinkedin />
           </a>
           <a
             href="https://github.com/Ajay2521"
@@ -41,7 +39,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <VscGithub />
+            <GrGithub />
           </a>
           <a
             href="https://www.instagram.com/maayakavi/profilecard/"
@@ -49,7 +47,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <TbBrandInstagram />
+            <GrInstagram />
           </a>
         </div>
         <span className="footer__copy">&#169; All Rights Reserved</span>
