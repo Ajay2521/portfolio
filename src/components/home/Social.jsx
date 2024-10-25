@@ -8,6 +8,7 @@ const Social = () => {
         href="https://www.linkedin.com/in/ajay-2521/"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <GrLinkedin />
       </a>
@@ -15,6 +16,7 @@ const Social = () => {
         href="https://github.com/Ajay2521"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <GrGithub />
       </a>
@@ -22,6 +24,7 @@ const Social = () => {
         href="https://www.instagram.com/maayakavi/profilecard/"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <GrInstagram />
       </a>
