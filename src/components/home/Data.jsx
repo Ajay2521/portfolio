@@ -1,5 +1,4 @@
 import React from "react";
-import { GrInstagram, GrGithub, GrLinkedin } from "react-icons/gr";
 
 const Data = () => {
   return (
