@@ -124,7 +124,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <BsDatabaseFillGear className="services__icon" />
-                    <h3 className="services__title">DB Management & System Optimization</h3>
+                    <h3 className="services__title">Database & Performance <br /> Management</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(3)}>
                     View More
@@ -133,7 +133,7 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
                         <HiX onClick={() => toggleTab(0)} className="services__modal-close" />
-                        <h3 className="services__modal-title">Data Handling</h3>
+                        <h3 className="services__modal-title">DataBase Management</h3>
                         <p className="services__modal-description">
                             Over 2 years of experience in database management and ensuring quality outcomes.
                         </p>
