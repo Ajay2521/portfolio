@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Ajay2521/portfolio",
+  "homepage": "https://Ajay2521.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "main -d build -r https://x-access-token:${GH_PAT}@github.com/Ajay2521/portfolio.git",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

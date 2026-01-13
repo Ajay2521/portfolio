@@ -10,13 +10,13 @@ const Info = () => {
       <div className="about__box">
         <FaLaptopCode className="about__icon" />
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">2 Years & 10 Months</span>
+        <span className="about__subtitle">4+ Years</span>
       </div>
 
       <div className="about__box">
         <GoTasklist className="about__icon" />
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">27+ Projects</span>
+        <span className="about__subtitle">46+ Projects</span>
       </div>
 
       <div className="about__box">
